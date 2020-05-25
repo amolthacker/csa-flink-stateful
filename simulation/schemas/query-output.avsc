@@ -1,0 +1,19 @@
+{
+    "type": "record",
+    "namespace": "bnym",
+    "name": "query-output",
+    "fields": [
+        {
+            "name": "queryId",
+            "type": "long"
+        },
+        {
+            "name": "itemId",
+            "type": "string"
+        },
+        {
+            "name": "qty",
+            "type": "int"
+        }
+    ]
+}

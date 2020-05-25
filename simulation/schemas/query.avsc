@@ -1,0 +1,15 @@
+{
+    "type": "record",
+    "namespace": "bnym",
+    "name": "query",
+    "fields": [
+        {
+            "name": "queryId",
+            "type": "long"
+        },
+        {
+            "name": "itemId",
+            "type": "string"
+        }
+    ]
+}

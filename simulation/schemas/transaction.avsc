@@ -1,0 +1,23 @@
+{
+    "type": "record",
+    "namespace": "bnym",
+    "name": "transaction",
+    "fields": [
+        {
+            "name": "trnxId",
+            "type": "long"
+        },
+        {
+            "name": "ts",
+            "type": "long"
+        },
+        {
+            "name": "itemId",
+            "type": "string"
+        },
+        {
+            "name": "qty",
+            "type": "int"
+        }
+    ]
+}

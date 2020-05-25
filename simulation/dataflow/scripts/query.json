@@ -1,0 +1,4 @@
+{
+  "queryId": ${random():mod(1000000000):plus(1)},
+  "itemId": "item_${random():mod(100):plus(1)}"
+}

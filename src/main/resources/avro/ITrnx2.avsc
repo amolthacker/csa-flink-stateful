@@ -1,0 +1,26 @@
+{
+    "namespace": "com.cloudera.streaming.examples.flink.types",
+    "type": "record",
+    "name": "ITrnx2",
+    "fields": [
+        {
+            "name": "trnxId",
+            "type": "long"
+        },
+        {
+            "name": "ts",
+            "type": "long"
+        },
+        {
+            "name": "itemId",
+            "type":{
+                "type":"string",
+                "avro.java.string":"String"
+            }
+        },
+        {
+            "name": "qty",
+            "type": "int"
+        }
+    ]
+}

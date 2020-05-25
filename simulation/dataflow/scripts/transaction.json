@@ -1,0 +1,6 @@
+{
+    "trnxId": ${random():mod(1000000000):plus(1)},
+    "ts": ${now():toNumber()},
+    "itemId": "item_${random():mod(100):plus(1)}",
+    "qty": ${random():mod(100):plus(-10)}
+}
